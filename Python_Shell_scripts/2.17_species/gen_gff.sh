@@ -8,4 +8,4 @@ while read gff_list
 do
         mv \$gff_list "\$( dirname "\$gff_list" ).gff"
 done <\$1
-EOF
+EOF>

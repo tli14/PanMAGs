@@ -11,3 +11,6 @@ for f in $path
 do
       prokka "$f" --outdir "${f}.prokka"
 done
+
+# Run prokka for species genome annotation.
+bash prokka.sh Escherichia_coli

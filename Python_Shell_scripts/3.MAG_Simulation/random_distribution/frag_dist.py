@@ -1,4 +1,4 @@
-## Modified based on the original code: https://stackoverflow.com/questions/49801071
+## Modified based on the [original code] (https://stackoverflow.com/questions/49801071)
 
 import sys
 import scipy

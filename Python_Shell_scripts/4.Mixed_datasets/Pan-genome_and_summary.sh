@@ -9,7 +9,7 @@ sim_group=sim_$2
 cat << EOF> i90cd100.sh
 #!/bin/sh
 roary -f $PWD/pan-genome/MAG_percentage/EC_test/sim_data/MAG_$1/$sim_group/roary/i90cd100 -i 90 -cd 100 -s -e -n -v $PWD/pan-genome/MAG_percentage/EC_test/sim_data/MAG_$1/$sim_group/data/*gff
-EOF
+EOF>
 
 
 ## roary_submit.sh

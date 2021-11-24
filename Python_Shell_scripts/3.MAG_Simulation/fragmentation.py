@@ -15,7 +15,7 @@ sequence=[]
 new_sequence = []
 records = list(SeqIO.parse(i, "fasta"))
 records_number = len(records)
-cut = int(open("fnumbers.txt").readlines()[int(n)].split()[0])
+cut = int(open("fnumbers.txt").readlines()[int(n)].split()[0]) # the random fragmentation number file
 
 if records_number == 1:
     record = records[0]

@@ -60,6 +60,7 @@ year_tool_plot <-  ggplot(data=table_tools, aes(x = Year))+
 
 year_tool_plot
 
+
 ## Figure 2.D. CG thresholds in different studies.
 table_CG <- read.table(file = "R_code/Fig2.Publication_sum/CG.txt", header = TRUE)
 
@@ -79,6 +80,7 @@ CG_plot <- ggplot(table_CG, aes(x="", y=Number, fill=CG))+
         axis.ticks = element_blank())+
   scale_fill_brewer(palette="Set3")
 
+
 ## Figure 2.E. MAG percentage
 table_mag <- read.table(file = "R_code/Fig2.Publication_sum/MAG_percentage.txt", header = TRUE)
 
@@ -94,8 +96,8 @@ mag_percentage_histogram <- ggplot(data = table_mag, aes(x = MAG),fill=MAG) +
         panel.background = element_blank(), axis.line = element_line(colour = "black"))
 mag_percentage_histogram
 
-##  Figure 2.F. Genome dataset size.
 
+##  Figure 2.F. Genome dataset size.
 total_genomes_histogram <- ggplot(data = table_mag, aes(x = genomes),fill=MAG) +
   geom_histogram(color="black", fill="lightgreen", position = 'identity')+
   scale_x_continuous(name = "#Total Genomes (log10)", trans = 'log10')+

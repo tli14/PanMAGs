@@ -37,10 +37,10 @@ paste -d"\t" fna.txt test_db_dir.txt > EC_contig_database.txt
 # 4. Create genome database.
 anvi-gen-genomes-storage -e EC_contig_db.txt -o EC_test-GENOMES.db --gene-caller Prodigal
 
-## 5. Pan-genome analysis.
+# 5. Pan-genome analysis.
 anvi-pan-genome -g EC_test-GENOMES.db --project-name ECtest --output-dir Anvio/pangenome --num-threads 32 --mcl-inflation 10 --use-ncbi-blast --minbit 0.8
 
-## 6. Display and summary ("ssh -L 8080:localhost:8080" may be needed in visualization if connect to the server)
+# 6. Display and summary ("ssh -L 8080:localhost:8080" may be needed in visualization if connect to the server)
 cd $PWD/pan-genome/Anvio # Anvio folder
 anvi-display-pan -g test_EC/EC_test-GENOMES.db -p pangenome/ECtest-PAN.db  # --server-only -P 8080
 # Name the collection containing all core genes as "core" on the online anvio page.

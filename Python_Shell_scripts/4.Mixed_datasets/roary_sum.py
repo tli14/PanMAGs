@@ -1,6 +1,5 @@
 # Summary Roary results for multiple mixed datasets.
 
-## roary_sum.py
 import os
 import sys
 

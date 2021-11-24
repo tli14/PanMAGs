@@ -1,4 +1,4 @@
-## Batch files for simulation
+## Batch files for simulation (Each script should be saved and run separately).
 
 # batch_sim.sh (for fragmentation dataset)
 #!/bin/sh

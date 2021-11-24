@@ -1,0 +1,9 @@
+Source	Number
+human/animal gut	8
+ocean	6
+others	6
+hydrothermal vents	5
+human body	4
+rivers/lakes	4
+insects	3
+water	3

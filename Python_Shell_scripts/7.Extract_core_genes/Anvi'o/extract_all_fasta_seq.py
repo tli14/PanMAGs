@@ -1,6 +1,6 @@
 ## Extract all gene sequences in gene clusters (The genes in each cluster can be found in at least 90% of the genomes)
 
-# extract_all_fasta_seq.py (save in the directory: Core_gene/Anvio_core_gene)
+# extract_all_fasta_seq.py (saved in the directory: Core_gene/Anvio_core_gene)
 
 import os
 import sys

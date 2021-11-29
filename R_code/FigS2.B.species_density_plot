@@ -5,7 +5,7 @@ library(ggpubr)
 
 
 # plot1 #EC
-data1 <- read.table("R_code/Supplementary_fig_data/FigS2.EC_count.csv",sep="\t")
+data1 <- read.table("R_code/Supplementary_fig_data/FigS2.EC_count.txt",sep="\t")
 colnames(data1) <- c('contig', 'completeness', 'contamination')
 
 melt.data1 <- melt(data1)
@@ -21,7 +21,7 @@ plot1 <- ggplot(data = melt.data1, aes(x = value)) +
 plot1 
 
 # plot2 #EF
-data2 <- read.table("R_code/Supplementary_fig_data/FigS2.EF_count.csv",sep="\t")
+data2 <- read.table("R_code/Supplementary_fig_data/FigS2.EF_count.txt",sep="\t")
 colnames(data2) <- c('contig', 'completeness', 'contamination')
 
 melt.data2 <- melt(data2)
@@ -37,7 +37,7 @@ plot2 <- ggplot(data = melt.data2, aes(x = value)) +
 plot2
 
 # plot3 #KP
-data3 <- read.table("R_code/Supplementary_fig_data/FigS2.KP_count.csv",sep="\t")
+data3 <- read.table("R_code/Supplementary_fig_data/FigS2.KP_count.txt",sep="\t")
 colnames(data3) <- c('contig', 'completeness', 'contamination')
 
 melt.data3 <- melt(data3)
@@ -53,7 +53,7 @@ plot3 <- ggplot(data = melt.data3, aes(x = value)) +
 plot3
 
 # plot4 #PA
-data4 <- read.table("R_code/Supplementary_fig_data/FigS2.PA_count.csv",sep="\t")
+data4 <- read.table("R_code/Supplementary_fig_data/FigS2.PA_count.txt",sep="\t")
 colnames(data4) <- c('contig', 'completeness', 'contamination')
 
 melt.data4 <- melt(data4)
@@ -69,7 +69,7 @@ plot4 <- ggplot(data = melt.data4, aes(x = value)) +
 plot4
 
 # plot5 #SA
-data5 <- read.table("R_code/Supplementary_fig_data/FigS2.SA_count.csv",sep="\t")
+data5 <- read.table("R_code/Supplementary_fig_data/FigS2.SA_count.txt",sep="\t")
 colnames(data5) <- c('contig', 'completeness', 'contamination')
 
 melt.data5 <- melt(data5)

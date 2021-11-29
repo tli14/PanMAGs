@@ -51,7 +51,7 @@ BoP_incomp_plot <- ggplot(data=BoP_data,aes(x=incomp, y=genes))+
   geom_text(label="R^2=0.9958", x=2, y=3000, size = 8, color="blue")+
   geom_text(label="P=4.313e-06", x=3.5, y=3000, size = 8, color="red")
 
-## Plot for other 15 species.
+## Plot for other 15 species (FigS3.B).
 incomp_data_no_EC_BoP <- subset(incomp_data, c(Species!='E. coli' & Species!='B. pertussis'))
 mod_data_no_EC_BoP <- subset(mod_data, c(Species!='E. coli' & Species!='B. pertussis'))
 equation_no_EC_BoP <- subset(equation_data, c(Species!='E. coli' & Species!='B. pertussis'))

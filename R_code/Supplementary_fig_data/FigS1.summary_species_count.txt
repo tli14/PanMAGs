@@ -1,0 +1,18 @@
+species	count	size	pan-genome
+Escherichia coli	923	4873	33123
+Salmonella enterica	746	4577	27085
+Bordetella pertussis	539	3901	4115
+Staphylococcus aureus	443	2639	6177
+Klebsiella pneumoniae	372	5320	22106
+Pseudomonas aeruginosa	196	6175	19637
+Streptococcus pyogenes	195	1758	3959
+Listeria monocytogenes	180	2909	6109
+Mycobacterium tuberculosis	176	4067	4449
+Campylobacter jejuni	171	1746	4027
+Helicobacter pylori	166	1545	3755
+Acinetobacter baumannii	161	3813	12426
+Enterococcus faecium	115	2937	7652
+Neisseria meningitidis	106	2042	3347
+Bacillus subtilis	102	4178	8987
+Burkholderia pseudomallei	101	5918	12941	
+Corynebacterium pseudotuberculosis	100	2127	2449

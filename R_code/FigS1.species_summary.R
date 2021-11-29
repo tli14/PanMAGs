@@ -4,8 +4,8 @@ library(ggplot2)
 library(reshape2)
 
 ## pan-genome plot for all the species
-data <- read.table(file = "/Users/litang/Desktop/lab/tang_project/species_summary/summary_species_new.txt",  sep = '\t', header = FALSE)
-species_count <- read.table(file = "/Users/litang/Desktop/lab/tang_project/species_summary/summary_species.txt",  sep = '\t', header = TRUE)
+data <- read.table(file = "R_code/Supp_fig_data/FigS1.summary_species.txt",  sep = '\t', header = FALSE)
+species_count <- read.table(file = "R_code/Supp_fig_data/FigS1.summary_species_count.txt",  sep = '\t', header = TRUE)
 
 species_order <- factor(data$V1, level = c('Corynebacterium pseudotuberculosis',
                                            'Neisseria meningitidis',

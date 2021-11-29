@@ -1,3 +1,4 @@
+## 2. After all the core gene sequences are extracted, blastp searchh is performed to compare the core genes in original and simulated genome datasets.
 # Anvio_core_gene_compare.sh (saved in the directory: "Core_gene/Anvio_core_gene")
 
 #!/bin/sh

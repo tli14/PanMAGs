@@ -1,0 +1,68 @@
+Escherichia coli	Core genes  1486
+Escherichia coli	Soft core genes 1689
+Escherichia coli	Shell genes	2109
+Escherichia coli	Cloud genes	27839
+Salmonella enterica	Core genes	1877
+Salmonella enterica	Soft core genes	1658
+Salmonella enterica	Shell genes	1484
+Salmonella enterica	Cloud genes	22066
+Staphylococcus aureus	Core genes	1710
+Staphylococcus aureus	Soft core genes	412
+Staphylococcus aureus	Shell genes	767
+Staphylococcus aureus	Cloud genes	3288
+Klebsiella pneumoniae	Core genes	2741
+Klebsiella pneumoniae	Soft core genes	1393
+Klebsiella pneumoniae	Shell genes	1608
+Klebsiella pneumoniae	Cloud genes	16364
+Pseudomonas aeruginosa	Core genes	3734
+Pseudomonas aeruginosa	Soft core genes	1371
+Pseudomonas aeruginosa	Shell genes	1242
+Pseudomonas aeruginosa	Cloud genes	13290
+Listeria monocytogenes	Core genes	2098
+Listeria monocytogenes	Soft core genes	385
+Listeria monocytogenes	Shell genes	720
+Listeria monocytogenes	Cloud genes	2906
+Campylobacter jejuni	Core genes	1204
+Campylobacter jejuni	Soft core genes	186
+Campylobacter jejuni	Shell genes	465
+Campylobacter jejuni	Cloud genes	2172
+Helicobacter pylori	Core genes	1143
+Helicobacter pylori	Soft core genes	96
+Helicobacter pylori	Shell genes	389
+Helicobacter pylori	Cloud genes	2127
+Acinetobacter baumannii	Core genes	2132
+Acinetobacter baumannii Soft core genes	592
+Acinetobacter baumannii	Shell genes	1319
+Acinetobacter baumannii	Cloud genes	8383
+Enterococcus faecium	Core genes	1608
+Enterococcus faecium	Soft core genes	268
+Enterococcus faecium	Shell genes	1404
+Enterococcus faecium	Cloud genes	4372
+Bacillus subtilis	Core genes	3063
+Bacillus subtilis	Soft core genes	370
+Bacillus subtilis	Shell genes	1249
+Bacillus subtilis	Cloud genes	4305
+Burkholderia pseudomallei	Core genes	4663
+Burkholderia pseudomallei	Soft core genes	479
+Burkholderia pseudomallei	Shell genes	907
+Burkholderia pseudomallei	Cloud genes	6892
+Bordetella pertussis	Core genes	2960
+Bordetella pertussis	Soft core genes	582
+Bordetella pertussis	Shell genes	9
+Bordetella pertussis	Cloud genes	564
+Streptococcus pyogenes	Core genes	1267
+Streptococcus pyogenes	Soft core genes	139
+Streptococcus pyogenes	Shell genes	606
+Streptococcus pyogenes	Cloud genes	1947
+Mycobacterium tuberculosis	Core genes	3429
+Mycobacterium tuberculosis	Soft core genes	326
+Mycobacterium tuberculosis	Shell genes	208
+Mycobacterium tuberculosis	Cloud genes	486
+Neisseria meningitidis	Core genes	1414
+Neisseria meningitidis	Soft core genes	157
+Neisseria meningitidis	Shell genes	507
+Neisseria meningitidis	Cloud genes	1269
+Corynebacterium pseudotuberculosis	Core genes	1887
+Corynebacterium pseudotuberculosis	Soft core genes 79
+Corynebacterium pseudotuberculosis	Shell genes	191
+Corynebacterium pseudotuberculosis  Cloud genes 292

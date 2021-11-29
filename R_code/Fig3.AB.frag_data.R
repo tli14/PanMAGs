@@ -55,7 +55,7 @@ BoP_frag_plot <- ggplot(data=BoP_data,aes(x=Cut, y=genes))+
   geom_text(label="R^2=0.9979", x=200, y=4000, size = 8, color="blue")+
   geom_text(label="P=1.092e-06", x=300, y=4000, size = 8, color="red")
 
-## Plot for other 15 species.
+## Plot for other 15 species (FigS3.A).
 frag_data_no_EC_BoP <- subset(frag_data, c(Species!='E. coli' & Species!='B. pertussis'))
 mod_data_no_EC_BoP <- subset(mod_data, c(Species!='E. coli' & Species!='B. pertussis'))
 equation_no_EC_BoP <- subset(equation_data, c(Species!='E. coli' & Species!='B. pertussis'))

@@ -1,6 +1,4 @@
 ## Build tree based on core gene alignment by using fasttree
-mkidr -p phylogenetic_tree/fasttree
-
 ## Change genome ids for tree comparison.
 # core_alignment_tree.sh (saved in the directory: "$PWD/phylogenetic_tree/fasttree")
 

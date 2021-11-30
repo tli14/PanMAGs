@@ -7,5 +7,6 @@ This repository provides codes and files to reproduce data and figures from the 
 * [Roary](https://github.com/sanger-pathogens/Roary)
 * [Anvi'o](https://github.com/merenlab/anvio)
 * [BPGA](https://github.com/jbadavis/bpga)
+* [Fasttree](http://www.microbesonline.org/fasttree/)
 ## Data
 The entire data generated in this study is too large to store on Github, some example data for _`Escherichia coli`_ are available in () for testing.

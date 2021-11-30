@@ -4,9 +4,9 @@ library(ggplot2)
 library(rlist)
 
 ## Read COG enrichment files.
-core <- read.table(file = "R_code/Supplementary_fig_data/FigS7.A.EC_ori_CG100_core", sep = "\t" )
-acc <- read.table(file = "R_code/Supplementary_fig_data/FigS7.A.EC_ori_CG100_acc", sep = "\t" )
-uniq <- read.table(file = "R_code/Supplementary_fig_data/FigS7.A.EC_ori_CG100_uniq", sep = "\t" )
+core <- read.table(file = "R_code/Supplementary_fig_data/FigS7.A.EC_ori_CG100_core.txt", sep = "\t" )
+acc <- read.table(file = "R_code/Supplementary_fig_data/FigS7.A.EC_ori_CG100_acc.txt", sep = "\t" )
+uniq <- read.table(file = "R_code/Supplementary_fig_data/FigS7.A.EC_ori_CG100_uniq.txt", sep = "\t" )
 
 ## Reformat data.
 Groups <- rep("core", 10)

@@ -19,11 +19,11 @@ path2="$path1/ori_roary"
 #path2="$path1/simulation/$frag/$comp/cont/$cont/roary/i90cd100"
 dir="COG/COG_analysis"
 
-python gene_id_extract.py $path2/gene_presence_absence.csv # extract gene ids
+python Core_gene/Roary_core_gene/gene_id_extract.py $path2/gene_presence_absence.csv # extract gene ids
 mv output.txt $path2/gene_presence_absence.csv.gene_id
 less $path2/gene_presence_absence.csv.gene_id | awk '$2==100' | cut -f 1 > $path2/gene_presence_absence.csv.gene_id.core.txt # Here, use 100% core gene threshold.
-python extract_core_gene_faa.py $path2/gene_presence_absence.csv.gene_id.core.txt $path2/pan_genome_reference.fa
-python DNA_to_protein.py $path2/pan_genome_reference.fa.core
+python Core_gene/Roary_core_gene/extract_core_gene_faa.py $path2/gene_presence_absence.csv.gene_id.core.txt $path2/pan_genome_reference.fa
+python Core_gene/Roary_core_gene/DNA_to_protein.py $path2/pan_genome_reference.fa.core
 bash rpsblast_batch.sh $path2/pan_genome_reference.fa.core.protein.fa
 mv rpsblast.sh $path2
 bash $path2/rpsblast.sh

@@ -1,6 +1,5 @@
-.libPaths("/Users/litang/Desktop/RLibrary")
 library(tidyverse)
-library(dplyr)   # For data manipulation
+library(dplyr)
 library(ggplot2) 
 
 ## Load phylogenetic comparison data of E. coli.

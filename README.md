@@ -1,5 +1,5 @@
 # PanMAGs
-This repository provides codes and files to reproduce data and figures from the manuscript "Critical assessment of pan-genomics of metagenome-assembled genomes", by Tang Li and Yanbin Yin* (*corresponding author). Here, the Python and shell scripts cover downloading genome data, simulating metagenome-assembled genomes (MAGs) from complete genomes, analyzing pan-genome, performing Clusters of Orthologous Group (COG) functional annotations and comparing phylogenetic trees. The R codes cover reformatting data, generating plots and combining plots. <br> 
+This repository provides codes and files to reproduce data and figures from the manuscript "Pan-genomics of metagenome-assembled genomes suffers from fragmentation and incompleteness", by Tang Li and Yanbin Yin* (*corresponding author). Here, the Python and shell scripts cover downloading genome data, simulating metagenome-assembled genomes (MAGs) from complete genomes, analyzing pan-genome, performing Clusters of Orthologous Group (COG) functional annotations and comparing phylogenetic trees. The R codes cover reformatting data, generating plots and combining plots. <br> 
 ## Requirements
 * [FastANI](https://github.com/ParBLiSS/FastANI)
 * [Prokka](https://github.com/tseemann/prokka)

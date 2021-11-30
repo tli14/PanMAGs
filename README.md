@@ -9,4 +9,4 @@ This repository provides codes and files to reproduce data and figures from the 
 * [BPGA](https://github.com/jbadavis/bpga)
 * [Fasttree](http://www.microbesonline.org/fasttree/)
 ## Data
-The entire data generated in this study is too large to store on Github, some example data for _`Escherichia coli`_ are available in () for testing.
+The entire data generated in this study is too large to store on Github, some example data for _`Escherichia coli`_ are available [online](https://bcb.unl.edu/PanMAGs/) for testing.

@@ -23,7 +23,7 @@ plot_EC <- ggplot(data=EC_group,aes(x=V1, y=V2, group=V1, fill=V1))+
 
 plot_EC
 
-## the frequency of edges
+## The frequency of edges (for Figure S9.C). 
 plot_EC_edges <- ggplot(data=EC_group,aes(x=V1, y=V3, group=V1, fill=V1)) +
   geom_violin(trim=TRUE)+
   geom_boxplot(width=0.1, fill="white")+

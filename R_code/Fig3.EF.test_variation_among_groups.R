@@ -1,7 +1,5 @@
-.libPaths("/Users/litang/Desktop/RLibrary")
-library(tidyverse)
-library(dplyr)   # For data manipulation
-library(ggplot2) # For data visualization
+library(dplyr) 
+library(ggplot2)
 library(reshape2)
 
 ## Load data for four groups: original (ori), fragmentation (50cut), incompleteness (50cut+99comp), and contamination (50cut+99comp+2.0cont). 

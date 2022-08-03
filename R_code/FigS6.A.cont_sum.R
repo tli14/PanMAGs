@@ -4,8 +4,8 @@ library(ggplot2)
 library(reshape2)
 
 ## Core and cloud gene data.
-cont_data <- read.table(file = "R_code/Supplementary_fig_data/FigS5.A.summary_cont_core.txt",  sep = '\t', header = TRUE)
-cont_cloud_data <- read.table(file = "R_code/Supplementary_fig_data/FigS5.A.summary_cont_cloud.txt",  sep = '\t', header = TRUE)
+cont_data <- read.table(file = "R_code/Supplementary_fig_data/FigS6.A.summary_cont_core.txt",  sep = '\t', header = TRUE)
+cont_cloud_data <- read.table(file = "R_code/Supplementary_fig_data/FigS6.A.summary_cont_cloud.txt",  sep = '\t', header = TRUE)
 data <- merge(cont_data,cont_cloud_data,by=c("Species","cont"))
 
 ## Generate plot.

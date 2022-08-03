@@ -3,10 +3,10 @@ library(ggplot2)
 library(reshape2)
 
 ## Load data for four groups: original (ori), fragmentation (50cut), incompleteness (50cut+99comp), and contamination (50cut+99comp+2.0cont). 
-ori <- read.table(file = "R_code/Fig3.frag_incomp/EC_ori.txt",  sep = '\t', header = FALSE)
-cut <- read.table(file = "R_code/Fig3.frag_incomp/EC_frag.txt",  sep = '\t', header = FALSE)
-comp <- read.table(file = "R_code/Fig3.frag_incomp/EC_incomp.txt",  sep = '\t', header = FALSE)
-cont <- read.table(file = "R_code/Fig3.frag_incomp/EC_cont.txt",  sep = '\t', header = FALSE)
+ori <- read.table(file = "R_code/Fig2.frag_incomp/EC_ori.txt",  sep = '\t', header = FALSE)
+cut <- read.table(file = "R_code/Fig2.frag_incomp/EC_frag.txt",  sep = '\t', header = FALSE)
+comp <- read.table(file = "R_code/Fig2.frag_incomp/EC_incomp.txt",  sep = '\t', header = FALSE)
+cont <- read.table(file = "R_code/Fig2.frag_incomp/EC_cont.txt",  sep = '\t', header = FALSE)
 
 ## Reformat the data.
 group <- rep("original", 50)

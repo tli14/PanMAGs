@@ -33,4 +33,3 @@ for ( i in unique(frag_data$Species)){
   write.table(new_model_line, file = "R_code/Fig2.frag_incomp/frag_model.txt", 
               append=TRUE, sep = "\t", row.names = FALSE, col.names = FALSE, quote=FALSE)
 }
-

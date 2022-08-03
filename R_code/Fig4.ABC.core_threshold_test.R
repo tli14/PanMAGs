@@ -5,7 +5,7 @@ library(ggplot2)
 library(reshape2)
 
 ## 1. Fragmentation data for E. coli dataset by using Roary pan-genome analysis.
-EC_frag_roary_CG <- read.table(file = "R_code/Fig5.core_gene_thred/E_coli_frag.txt",  sep = '\t', header = TRUE)
+EC_frag_roary_CG <- read.table(file = "R_code/Fig4.Core_gene_thred/E_coli_frag.txt",  sep = '\t', header = TRUE)
 
 EC_frag_roary_CG_plot <- ggplot(data=frag,aes(x=Cut, y=genes,group=factor(Group)))+
   geom_line(stat="identity", aes(color=factor(Group)), size=1.5)+
@@ -31,7 +31,7 @@ EC_frag_roary_CG_plot
 
 ## 2. Incompleteness data for E. coli dataset by using Roary pan-genome analysis.
 
-EC_incomp_roary_CG <- read.table(file = "R_code/Fig5.core_gene_thred/E_coli_incomp.txt",  sep = '\t', header = TRUE)
+EC_incomp_roary_CG <- read.table(file = "R_code/Fig4.Core_gene_thred/E_coli_incomp.txt",  sep = '\t', header = TRUE)
 
 EC_incomp_roary_CG_plot <- ggplot(data=EC_incomp_roary_CG,aes(x=Incomp, y=genes,group=factor(Group)))+
   geom_line(stat="identity", aes(color=factor(Group)), size=1.5)+

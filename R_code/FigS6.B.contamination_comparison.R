@@ -5,8 +5,8 @@ library(reshape2)
 library(ggpubr)
 
 # Read files.
-core <- read.table(file = "R_code/Supplementary_fig_data/FigS5.B.core_4_species.txt",  sep = '\t', header = TRUE)
-cloud <- read.table(file = "R_code/Supplementary_fig_data/FigS5.B.cloud_4_species.txt",  sep = '\t', header = TRUE)
+core <- read.table(file = "R_code/Supplementary_fig_data/FigS6.B.core_4_species.txt",  sep = '\t', header = TRUE)
+cloud <- read.table(file = "R_code/Supplementary_fig_data/FigS6.B.cloud_4_species.txt",  sep = '\t', header = TRUE)
 
 # Generate figures.
 plot_core <- ggplot(data=core,aes(x=cont, y=gene_count, colour=group)) +

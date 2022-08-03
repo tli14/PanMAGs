@@ -4,9 +4,9 @@ library(ggplot2
 library(reshape2)
 
 ## Load the pan-genome results from three pan-genome tools.
-EC_data_anvio <- read.table(file = "R_code/Fig4.three_tools_and_mixed_datasets/E_coli_data_anvio.txt",  sep = '\t', header = TRUE)
-EC_data_roary <- read.table(file = "R_code/Fig4.three_tools_and_mixed_datasets/E_coli_data_roary.txt",  sep = '\t', header = TRUE)
-EC_data_bpga <- read.table(file = "R_code/Fig4.three_tools_and_mixed_datasets/E_coli_data_BPGA.txt",  sep = '\t', header = TRUE)
+EC_data_anvio <- read.table(file = "R_code/Fig3.three_tools_and_mixed_datasets/E_coli_data_anvio.txt",  sep = '\t', header = TRUE)
+EC_data_roary <- read.table(file = "R_code/Fig3.three_tools_and_mixed_datasets/E_coli_data_roary.txt",  sep = '\t', header = TRUE)
+EC_data_bpga <- read.table(file = "R_code/Fig3.three_tools_and_mixed_datasets/E_coli_data_BPGA.txt",  sep = '\t', header = TRUE)
 
 ## Reformat data.
 tool <- rep("Anvi'o", 40)

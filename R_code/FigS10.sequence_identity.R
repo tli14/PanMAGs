@@ -2,7 +2,7 @@ library(ggplot2)
 
 ## Test different identity threshold
 
-diff_data <- read.table(file = "R_code/Supplementary_fig_data/FigS6.D.E_coli_comp_diff_i_cd90.txt",  sep = '\t', header = TRUE)
+diff_data <- read.table(file = "R_code/Supplementary_fig_data/FigS10.D.E_coli_comp_diff_i_cd90.txt",  sep = '\t', header = TRUE)
 
 SI_plot <- ggplot(data=diff_data,aes(x=Incomp, y=genes,group=factor(Group)))+
   geom_line(stat="identity", aes(color=factor(Group)), size=1)+

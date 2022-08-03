@@ -4,9 +4,9 @@ library(ggplot2)
 library(reshape2)
 
 ## Load fragmentation data, model data, and equation table.
-frag_data <- read.table(file = "R_code/Fig3.frag_incomp/frag_CG100_core.txt",  sep = '\t', header = TRUE)
-mod_data <- read.table(file = "R_code/Fig3.frag_incomp/frag_model.txt",  sep = '\t', header = TRUE)
-equation_data <- read.table(file = "/R_code/Fig3.frag_incomp/frag_equation.txt",  sep = '\t', header = TRUE)
+frag_data <- read.table(file = "R_code/Fig2.frag_incomp/frag_CG100_core.txt",  sep = '\t', header = TRUE)
+mod_data <- read.table(file = "R_code/Fig2.frag_incomp/frag_model.txt",  sep = '\t', header = TRUE)
+equation_data <- read.table(file = "/R_code/Fig2.frag_incomp/frag_equation.txt",  sep = '\t', header = TRUE)
 
 ## Summarize the frag data for E. coli and B. pertussis.
 

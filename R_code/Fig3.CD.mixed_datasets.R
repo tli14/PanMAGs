@@ -4,7 +4,7 @@ library(ggplot2)
 ## EC mixed datasets with different MAG percentage. Original datasets and simulation datasets (an average of 100 cut and 99% completeness) are used.
 ## The number of core gene families are calcultaed by using Roary with "-i 90 cd 100 -s -e -n -v".
 
-EC_mixed <- read.table(file = "R_code/Fig4.three_tools_and_mixed_datasets/EC_mixed_datasets.txt", sep = "\t" , header = FALSE)
+EC_mixed <- read.table(file = "R_code/Fig3.three_tools_and_mixed_datasets/EC_mixed_datasets.txt", sep = "\t" , header = FALSE)
 
 EC_mixed_plot <- ggplot(data=EC_mixed, aes(x = V1, y = V4))+
   geom_violin(aes(fill=V1))+

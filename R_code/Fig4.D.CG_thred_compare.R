@@ -3,9 +3,9 @@ library(dplyr)
 library(ggplot2)
 
 ## Load the data files that summarize the core gene comparison results (three tools were used with varying core gene threshold).
-Roary_EC <- read.table(file = "R_code/Fig5.core_gene_thred/EC_diff_CG_Roary.txt",sep = '\t', header = TRUE)
-BPGA_EC <- read.table(file = "R_code/Fig5.core_gene_thred/EC_diff_CG_BPGA.txt", sep = '\t', header = TRUE)
-Anvio_EC <- read.table(file = "R_code/Fig5.core_gene_thred/EC_diff_CG_Anvio.txt", sep = '\t', header = TRUE)
+Roary_EC <- read.table(file = "R_code/Fig4.Core_gene_thred/EC_diff_CG_Roary.txt",sep = '\t', header = TRUE)
+BPGA_EC <- read.table(file = "R_code/Fig4.Core_gene_thred/EC_diff_CG_BPGA.txt", sep = '\t', header = TRUE)
+Anvio_EC <- read.table(file = "R_code/Fig4.Core_gene_thred/EC_diff_CG_Anvio.txt", sep = '\t', header = TRUE)
 
 ## Reformat the data and combined to one file.
 Tools <- rep("Roary", 50)

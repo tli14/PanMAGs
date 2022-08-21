@@ -70,3 +70,5 @@ This repository provides codes and files to reproduce data and figures from the 
     - [rps2COG.py](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/6.COG_analysis/rps2COG.py): Extract COG information from rpsblast results after the selection of non-overlap domains.
     - [core_rps.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/6.COG_analysis/core_rps.sh): Run rps-blast.
     - [rpsblast_to_COG.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/6.COG_analysis/rpsblast_to_COG.sh): Select non-overlap domains for rps-blast results and assign the COG categories.<br>
+
+

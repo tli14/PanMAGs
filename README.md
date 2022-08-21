@@ -100,7 +100,7 @@ This repository provides codes and files to reproduce data and figures from the 
     - [gene_pre_abs_tree.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/8.Phylogenetic_analysis/gene_pre_abs_tree.sh): change genome ids for tree comparison.
     - [fasttree_generate.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/8.Phylogenetic_analysis/fasttree_generate.sh): generate  phylogenetic trees based on core gene alignment.
     - [core_alignment_tree.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/8.Phylogenetic_analysis/core_alignment_tree.sh): build tree based on core gene alignment by using fasttree.
-    - [tree_compare.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/8.Phylogenetic_analysis/tree_compare.sh): Compare two phylogenetic trees by using ETE3 toolkit.<br>
+    - [tree_compare.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/8.Phylogenetic_analysis/tree_compare.sh): compare two phylogenetic trees by using ETE3 toolkit.<br>
 
 ### R_code
 * These R codes were used to generate figures and supplementary figures in the manuscript. For example, the "[Fig2.AB.frag_data.R](https://github.com/tli14/PanMAGs/blob/main/R_code/Fig2.AB.frag_data.R)" was used to generate Figure 2.A and Figure 2.B in the manuscript. The input files for generating Figure 2 can be found in "[Fig2.frag_incomp](https://github.com/tli14/PanMAGs/tree/main/R_code/Fig2.frag_incomp)". 

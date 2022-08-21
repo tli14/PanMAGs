@@ -18,5 +18,6 @@ This repository provides codes and files to reproduce data and figures from the 
 ## Scripts
 * Python_Shell_scripts
   - 1.Genome_Data_Collection:
-    - download_all_complete_genome_fasta.sh: Download complete bacteria genomes from assembly_summary.txt.
-    - download_genus_contaminaton_genomes.sh: Download bacteria genomes as contamination datasets.
+    - [download_all_complete_genome_fasta.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/1.Genome_Data_Collection/download_all_complete_genome_fasta.sh): Download complete bacteria genomes from assembly_summary.txt.
+    - [download_genus_contaminaton_genomes.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/1.Genome_Data_Collection/download_genus_contaminaton_genomes.sh): Download bacteria genomes as contamination datasets.
+    - [fastANI.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/1.Genome_Data_Collection/fastANI.sh): Calculate average nucleotide identity (ANI) for bacteria species.

@@ -75,5 +75,29 @@ This repository provides codes and files to reproduce data and figures from the 
     - **[Anvi'o](https://github.com/tli14/PanMAGs/tree/main/Python_Shell_scripts/7.Core_gene/Anvi'o):**
       - [Anvio_extract_core.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Anvi'o/Anvio_extract_core.sh): extract core genes from anvi'o outputs.
       - [extract_all_fasta_seq.py](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Anvi'o/extract_all_fasta_seq.py): extract all gene sequences in gene clusters.
-      - [Anvio_extract_ref_core_seq.py](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Anvi'o/Anvio_extract_ref_core_seq.py): Select the longest core sequence from each gene cluster as the core representative sequence.
-      - [blast_generate.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Anvi'o/blast_generate.sh): 
+      - [Anvio_extract_ref_core_seq.py](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Anvi'o/Anvio_extract_ref_core_seq.py): select the longest core sequence from each gene cluster as the core representative sequence.
+      - [blast_generate.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Anvi'o/blast_generate.sh): generate blast scripts.
+      - [Anvio_core_gene_compare.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Anvi'o/Anvio_core_gene_compare.sh): core gene comparison.
+      - [Anvio_summary.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Anvi'o/Anvio_summary.sh): summarzie core gene comparison results.
+    - **[BPGA](https://github.com/tli14/PanMAGs/tree/main/Python_Shell_scripts/7.Core_gene/BPGA):**
+      - [BPGA_extract_ref_core_seq.py](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/BPGA/BPGA_extract_ref_core_seq.py): extract representative core genes from BPGA results under different core gene thresholds.
+      - [BPGA_extract_core.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/BPGA/BPGA_extract_core.sh): extract core gene representative sequences.
+      - [blast_generate.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/BPGA/blast_generate.sh): generate blast scripts.
+      - [BPGA_core_gene_compare.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/BPGA/BPGA_core_gene_compare.sh): core gene comparison.
+      - [BPGA_summary.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/BPGA/BPGA_summary.sh): summarzie core gene comparison results.
+    - **[Roary](https://github.com/tli14/PanMAGs/tree/main/Python_Shell_scripts/7.Core_gene/Roary):**
+      - [gene_id_extract.py](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Roary/gene_id_extract.py): extract core gene cluster ids.
+      - [extract_core_gene_faa.py](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Roary/extract_core_gene_faa.py): extract core gene representative sequences.
+      - [DNA_to_protein.py](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Roary/DNA_to_protein.py): translate DNA seuquences to proteins.
+      - [Roary_extract_core_gene.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Roary/Roary_extract_core_gene.sh): extract core gene representative sequences from pan-genome reference.
+      - [blast_generate.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Roary/blast_generate.sh): generate blast scripts.
+      - [Roary_core_gene_compare.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Roary/Roary_core_gene_compare.sh): core gene comparison.
+      - [Roary_summary.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/7.Core_gene/Roary/Roary_summary.sh): summarzie core gene comparison results.<br>
+
+  - **Phylogenetic_analysis: compare phylogenetic trees constructed based on MAGs and complete genomes.**
+    - [change_tree_id.py](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/8.Phylogenetic_analysis/change_tree_id.py): change tree id with new id file.
+    - [gene_pre_abs_tree.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/8.Phylogenetic_analysis/gene_pre_abs_tree.sh): change genome ids for tree comparison.
+    - [fasttree_generate.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/8.Phylogenetic_analysis/fasttree_generate.sh): generate  phylogenetic trees based on core gene alignment.
+    - [core_alignment_tree.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/8.Phylogenetic_analysis/core_alignment_tree.sh): build tree based on core gene alignment by using fasttree.
+    - [tree_compare.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/8.Phylogenetic_analysis/tree_compare.sh): Compare two phylogenetic trees by using ETE3 toolkit.<br>
+

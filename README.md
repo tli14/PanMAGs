@@ -12,3 +12,8 @@ This repository provides codes and files to reproduce data and figures from the 
 * The entire data generated in this study is too large to store on Github, some example data for _`Escherichia coli`_ are available [online](https://bcb.unl.edu/PanMAGs/) for testing MAG simulation, generating mixed MAG datasets, extracting and comparing core genes, and evaluating downstream analysis.
 * [`Anaconda`](https://www.anaconda.com/) is used to create conda environment to run Python scripts, the required package [conda_list](https://github.com/tli14/PanMAGs/blob/main/conda_list) can be downloaded using ```conda create --name <env> --file conda_list```.
 * Information about R packages needed to run R codes can be found in [R_packages](https://github.com/tli14/PanMAGs/blob/main/R_packages).
+
+## Scripts
+* Python_Shell_scripts
+** 1.Genome_Data_Collection:
+*** download_all_complete_genome_fasta.sh: Download complete bacteria genomes from assembly_summary.txt.

@@ -14,9 +14,10 @@ This repository provides codes and files to reproduce data and figures from the 
 * The entire data generated in this study is too large to store on Github, some example data for _`Escherichia coli`_ are available [online](https://bcb.unl.edu/PanMAGs/) for testing MAG simulation, generating mixed MAG datasets, extracting and comparing core genes, and evaluating downstream analysis.
 * [`Anaconda`](https://www.anaconda.com/) is used to create conda environment to run Python scripts, the required package [conda_list](https://github.com/tli14/PanMAGs/blob/main/conda_list) can be downloaded using ```conda create --name <env> --file conda_list```.
 * Information about R packages needed to run R codes can be found in [R_packages](https://github.com/tli14/PanMAGs/blob/main/R_packages).
+* The four supplementary tables for this manuscript can be found the folder [supplementary tables](https://github.com/tli14/PanMAGs/tree/main/supplementary%20tables).
 
 ## Scripts
-* **Python_Shell_scripts**
+### Python_Shell_scripts
   - **Genome_Data_Collection: collect and analyze genome data.**
     - [download_all_complete_genome_fasta.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/1.Genome_Data_Collection/download_all_complete_genome_fasta.sh): download complete bacteria genomes from assembly_summary.txt.
     - [download_genus_contaminaton_genomes.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/1.Genome_Data_Collection/download_genus_contaminaton_genomes.sh): download bacteria genomes as contamination datasets.
@@ -101,3 +102,5 @@ This repository provides codes and files to reproduce data and figures from the 
     - [core_alignment_tree.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/8.Phylogenetic_analysis/core_alignment_tree.sh): build tree based on core gene alignment by using fasttree.
     - [tree_compare.sh](https://github.com/tli14/PanMAGs/blob/main/Python_Shell_scripts/8.Phylogenetic_analysis/tree_compare.sh): Compare two phylogenetic trees by using ETE3 toolkit.<br>
 
+### R_code
+* These R codes were used to generate figures and supplementary figures in the manuscript. For example, the "[Fig2.AB.frag_data.R](https://github.com/tli14/PanMAGs/blob/main/R_code/Fig2.AB.frag_data.R)" was used to generate Figure 2.A and Figure 2.B in the manuscript. The input files for generating Figure 2 can be found in "[Fig2.frag_incomp](https://github.com/tli14/PanMAGs/tree/main/R_code/Fig2.frag_incomp)". 
